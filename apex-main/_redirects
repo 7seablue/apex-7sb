@@ -2,15 +2,13 @@
 https://7seablue.netlify.com/* https://www.7seablue.eu.org/:splat 301!
 # These extra rules are required because HTTPS is not forced
 http://7seablue.netlify.com/* https://www.7seablue.eu.org/:splat 301!
-
 #Semi-enforce HTTPS: on website.
 http://www.7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
 http://7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
 
 #Does this work for other subdomains?
-https://www.bythe.7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
-http://www.bythe.7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
-
-https://bythe.7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
-http://bythe.7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
+https://www.*.7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
+http://www.*.7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
+https://*.7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
+http://*.7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
 #End of redirects
