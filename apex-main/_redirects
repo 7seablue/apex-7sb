@@ -1,6 +1,8 @@
 # Redirect default Netlify subdomain to primary domain
+### HTTPS
 https://7seablue.netlify.com/* https://www.7seablue.eu.org/:splat 301!
 # These extra rules are required because HTTPS is not forced
+### HTTP
 http://7seablue.netlify.com/* https://www.7seablue.eu.org/:splat 301!
 #Semi-enforce HTTPS: on website.
 http://www.7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
@@ -12,6 +14,12 @@ http://www.crystal.7seablue.eu.org/* https://www.crystal.7seablue.eu.org/:splat 
 http://www.the.7seablue.eu.org/* https://www.the.7seablue.eu.org/:splat 301!
 http://www.bythe.7seablue.eu.org/* https://www.bythe.7seablue.eu.org/:splat 301!
 #apex-root
+### HTTPS
+https://clear.7seablue.eu.org/* https://www.clear.7seablue.eu.org/:splat 301!
+https://crystal.7seablue.eu.org/* https://www.crystal.7seablue.eu.org/:splat 301!
+https://the.7seablue.eu.org/* https://www.the.7seablue.eu.org/:splat 301!
+https://bythe.7seablue.eu.org/* https://www.bythe.7seablue.eu.org/:splat 301!
+### HTTP
 http://clear.7seablue.eu.org/* https://www.clear.7seablue.eu.org/:splat 301!
 http://crystal.7seablue.eu.org/* https://www.crystal.7seablue.eu.org/:splat 301!
 http://the.7seablue.eu.org/* https://www.the.7seablue.eu.org/:splat 301!
