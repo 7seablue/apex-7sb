@@ -7,8 +7,8 @@ http://www.7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
 http://7seablue.eu.org/* https://www.7seablue.eu.org/:splat 301!
 #Cover other any CNAME/A RRs for subdomains pointers.
 #Semi-enforce HTTPS: on subdomains.
-http://www.the.7seablue.eu.org/* https://www.the.7seablue.eu.org/:splat 301!
-http://www.bythe.7seablue.eu.org/* https://www.bythe.7seablue.eu.org/:splat 301!
+#http://www.the.7seablue.eu.org/* https://www.the.7seablue.eu.org/:splat 301!
+#http://www.bythe.7seablue.eu.org/* https://www.bythe.7seablue.eu.org/:splat 301!
 http://the.7seablue.eu.org/* https://the.7seablue.eu.org/:splat 301!
 http://bythe.7seablue.eu.org/* https://bythe.7seablue.eu.org/:splat 301!
 #End of subdomain redirects
