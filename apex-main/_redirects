@@ -13,16 +13,19 @@ http://www.clear.7seablue.eu.org/* https://www.clear.7seablue.eu.org/:splat 301!
 http://www.crystal.7seablue.eu.org/* https://www.crystal.7seablue.eu.org/:splat 301!
 http://www.the.7seablue.eu.org/* https://www.the.7seablue.eu.org/:splat 301!
 http://www.bythe.7seablue.eu.org/* https://www.bythe.7seablue.eu.org/:splat 301!
+http://www.far.7seablue.eu.org/* https://www.far.7seablue.eu.org/:splat 301!
 #apex-root
 ### HTTPS
 https://clear.7seablue.eu.org/* https://www.clear.7seablue.eu.org/:splat 301!
 https://crystal.7seablue.eu.org/* https://www.crystal.7seablue.eu.org/:splat 301!
 https://the.7seablue.eu.org/* https://www.the.7seablue.eu.org/:splat 301!
 https://bythe.7seablue.eu.org/* https://www.bythe.7seablue.eu.org/:splat 301!
+https://far.7seablue.eu.org/* https://www.far.7seablue.eu.org/:splat 301!
 ### HTTP
 http://clear.7seablue.eu.org/* https://www.clear.7seablue.eu.org/:splat 301!
 http://crystal.7seablue.eu.org/* https://www.crystal.7seablue.eu.org/:splat 301!
 http://the.7seablue.eu.org/* https://www.the.7seablue.eu.org/:splat 301!
 http://bythe.7seablue.eu.org/* https://www.bythe.7seablue.eu.org/:splat 301!
+http://far.7seablue.eu.org/* https://www.far.7seablue.eu.org/:splat 301!
 #End of subdomain redirects
 #End of all redirects
